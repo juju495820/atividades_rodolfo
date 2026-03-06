@@ -15,10 +15,10 @@ int main() {
     divisao = numero1 / numero2;
 
     cout << fixed << setprecision(2);
-    cout << "soma:"<< soma << end1;
-    cout << "subtracao:"<< subtracao << end1;
-    cout << "multiplicacao:"<< multiplicacao << end1;
-    cout << "divisao:"<< divisao << end1;
+    cout << "soma:"<< soma << endl;
+    cout << "subtracao:"<< subtracao << endl;
+    cout << "multiplicacao:"<< multiplicacao << endl;
+    cout << "divisao:"<< divisao << endl;
 
     return 0;
     
