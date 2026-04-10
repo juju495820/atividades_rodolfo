@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class desafio {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite a quantidade em estoque: ");
+        int quantidade = scanner.nextInt();
+
+        if (quantidade < 1) {
+            System.out.println("Status: Em falta");
+        } else if (quantidade < 5) {
+            System.out.println("Status: Alerta de estoque baixo");
+        } else {
+            System.out.println("Status: Estoque OK");
+        }
+
+        scanner.close();
+    }
+}
